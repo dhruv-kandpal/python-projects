@@ -10,3 +10,7 @@
 -- Status of host
 -- Status of port 80
 -- The type of scan
+- Usage : nmap-test.py <IP>
+## zipbrute.py
+- This project aim's at brute forcing a password protected zip file. 
+- Usage: python zipbrute.py -z <zip file> -p <passwords.txt>
