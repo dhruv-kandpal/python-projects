@@ -1,5 +1,5 @@
 # python-projects
-## Keylog.py
+## keylog.py
 - This project aim's at performing the tasks of a simple keylogger. 
 - It starts logging the keys as soon as it is fired and when the escape key is pressed, it stops logging the keys. 
 - It stores the output in a log file which is both stored in the attacker's present directory as well as uploaded to victim's FTP drive.
@@ -10,7 +10,7 @@
 -- Status of host
 -- Status of port 80
 -- The type of scan
-- Usage : nmap-test.py <IP>
+- Usage : nmap-test.py IP_address
 ## zipbrute.py
 - This project aim's at brute forcing a password protected zip file. 
-- Usage: python zipbrute.py -z <zip file> -p <passwords.txt>
+- Usage: python zipbrute.py -z zip_file.zip -p password.txt
